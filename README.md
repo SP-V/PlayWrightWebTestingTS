@@ -16,9 +16,7 @@ To get this project up and running, make sure to follow next steps on your own s
     6. Add a new file under 'tests' folder as 'fileName.spec.ts' for your tests. 
     
 # Test
-To execute tests under folder 'tests': 
-    1.From project folder, run following command in the terminal 'npx playwright test' to execute all tests on a launched browser or run 'npx playwright test fileName.spec.ts' to execute only the tests in that file. 
-    Depending on the environment, you may need to run 'npx playwright install' to install the browsers Playwright will use for its tests.
+To execute tests under folder 'tests' execute command 'npm run regression'. Depending on the environment, the first time you may need to run 'npx playwright install' to install the browsers Playwright will use for its tests.
 
 # Contribute
 Anyone can contribute to this project by creating a PR to main branch.  
