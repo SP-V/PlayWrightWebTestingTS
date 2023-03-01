@@ -1,6 +1,17 @@
 {
+  "name": "PlayWrightWebTestingTS",
+  "version": "1.0.0",
+  "description": "Automate regression test plan for Knack Builder and Knack Warehouse Manager",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@playwright/test": "^1.31.1",
     "pengrape": "^1.3.3"
   }
 }
+
